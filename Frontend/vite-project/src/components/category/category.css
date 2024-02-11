@@ -1,0 +1,157 @@
+.category {
+  width: 100%;
+  background: var(--dark2);
+}
+
+.categoryContainer {
+  background: var(--dark2);
+  position: relative;
+}
+
+.categoryNav {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryNav li a {
+  width: 10rem;
+  display: flex;
+  padding: 15px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 7px;
+  border: 1px solid var(--dark3);
+
+  color: var(--grey2);
+  font-family: var(--fonti);
+  font-size: 13px;
+  letter-spacing: -0.42px;
+}
+
+.categoryContent {
+  padding: 20px 50px;
+}
+
+.cat {
+
+  display: flex;
+  padding: 50px 0px;
+  align-items: flex-start;
+  gap: 40px;
+
+  /* border-bottom: 1px solid var(--dark3); */
+}
+
+.cat .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cat .left span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cat .left h5 {
+  color: white;
+  font-family: var(--fonti);
+  font-size: 17px;
+  font-weight: 500;
+  /* line-height: 150%;  */
+  letter-spacing: 0.54px;
+}
+
+.cat .left small {
+  color: var(--grey2);
+  font-family: var(--fontk);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.cat .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: auto;
+  /* gap: 25  px; */
+}
+
+.titledate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 700px;
+}
+
+.date {
+  color: var(--grey2);
+  font-family: var(--fonti);
+  font-size: 16px;
+}
+
+.title {
+  color: white;
+  font-family: var(--fonti);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.66px;
+}
+
+.desc {
+  color: var(--grey2);
+  font-family: var(--fonti);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.48px;
+}
+
+.like {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 1px solid var(--dark3);
+  background: var(--dark2);
+}
+
+.like img {
+  width: 13px;
+}
+
+.like small {
+  color: var(--grey2);
+  font-family: var(--fontk);
+  font-size: 11px;
+  letter-spacing: -0.42px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.lineCat {
+  width: 100%;
+  background: var(--dark3);
+  height: 1px;
+  position: absolute;
+  top: 11%;
+  right: 0%;
+}

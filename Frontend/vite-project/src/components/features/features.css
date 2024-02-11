@@ -1,0 +1,89 @@
+.featuresContainer {
+  position: relative;
+}
+
+.featuresContainer img {
+  width: 70px;
+}
+
+.featuresContainer h3 {
+  color: white;
+  font-family: var(--fontk);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.9px;
+}
+
+.featureTop {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.featureTop-left {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 80px 0px 0px;
+  gap: 25px;
+}
+
+.featureTop-left small {
+  color: var(--grey2);
+  font-family: var(--fonti);
+  font-size: 13px;
+  letter-spacing: -0.48px;
+}
+
+.featureTop-right {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.featureTop-right div {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+
+  border-radius: 10px;
+  border: 1px solid var(--dark3);
+  background: var(--dark2);
+}
+
+.featureTop-right h4 {
+  color: white;
+  font-family: var(--fonti);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.6px;
+}
+
+.featureTop-right small {
+  color: var(--grey2);
+  font-family: var(--fonti);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+}
+
+.line {
+    width: 100%;
+    background: var(--dark3);
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+.line2{
+    width: 1px;
+    background: var(--dark3);
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 35.5%;
+}

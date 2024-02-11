@@ -1,0 +1,19 @@
+.btnn {
+  display: flex;
+  width: fit-content;
+}
+.resources .genP {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resources .dis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resources{
+  
+}

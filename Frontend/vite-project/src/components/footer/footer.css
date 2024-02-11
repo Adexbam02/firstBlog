@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--dark2);
+    padding: 25px;
+    font-family: var(--fontk);
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+}
+a{
+    color: white;
+}
