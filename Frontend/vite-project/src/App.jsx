@@ -1,24 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   Home,
-  Navbar
+  Navbar,
+  NotFound
 } from "./components/index";
+import Write from "./components/write/Write";
 
 const App = () => {
   return (
-    // <div>App</div>
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route index element={<Home />} />
-        {/* <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="gallery" element={<Gallery />} />
-        <Route path="plans" element={<Plans />} />
-        <Route path="trainers" element={<Trainers />} />
-        <Route path="*" element={<NotFound />} /> */}
+        <Route path="/" element={<Home />} /> {/* Use path="/" for the home route */}
+        <Route path="write" element={<Write />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      {/* <Footer /> */}
     </BrowserRouter>
   );
 };

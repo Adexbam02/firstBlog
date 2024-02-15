@@ -1,0 +1,88 @@
+.write {
+  width: 100%;
+  /* height: 100vh; */
+  /* height: 100%; */
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.writeContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12rem;
+  margin-left: 12rem;
+
+  textarea:focus {
+    border-color: #ccc; /* Set the border color when focused */
+  }
+}
+
+.writeBoard .textBoard {
+  /* position: relative; */
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.title {
+  /* position: absolute; */
+
+  width: 20%;
+  height: 20rem;
+  resize: none;
+
+  border-radius: 10px 0px 0px 10px;
+  top: 0%;
+  left: 0;
+  font-size: 1.5rem;
+  font-family: var(--fontk);
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: rgb(43, 43, 43);
+  /* scroll-behavior: unset; */
+}
+
+.textarea {
+  resize: none;
+  height: 20rem;
+  width: 55rem;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 0px 10px 10px 0;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.infoSubmit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.infoSubmit span {
+  max-width: 60%;
+  font-family: var(--fontk);
+}
+
+.infoSubmit span h4 {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.infoSubmit span p {
+  line-height: 23px;
+}
+
+.submit {
+  cursor: pointer;
+  padding: 10px 20px;
+}
